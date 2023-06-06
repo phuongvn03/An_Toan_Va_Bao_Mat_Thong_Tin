@@ -1,8 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "md5.cpp"
-#include "C:\Users\Phuong\Desktop\ATTT\quazip-0.7.3\quazip-0.7.3\quazip\zip.h"
-#include "C:\Users\Phuong\Desktop\ATTT\quazip-0.7.3\quazip-0.7.3\quazip\unzip.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
