@@ -18,35 +18,6 @@ MainWindow::~MainWindow()
 
 int a = 1, b, n;
 
-//int EuclidMR(int ri, int ri1){
-//    int ri2, temp;
-//    std::vector<int> q, s, t;
-//    ri2 = ri % ri1;
-//    q.push_back(ri / ri1);
-//    s.push_back(1);
-//    s.push_back(0);
-//    t.push_back(0);
-//    t.push_back(1);
-//    int i = 1;
-//    while(1){
-//        if(i > 1){
-//            temp = s[i - 2] - s[i - 1] * q[i - 2];
-//            s.push_back(temp);
-//            temp = t[i - 2] - t[i - 1] * q[i - 2];
-//            t.push_back(temp);
-//        }
-//        if(ri2 == 0){
-//            return t.back();
-//        } else {
-//            ri = ri1;
-//            ri1 = ri2;
-//            ri2 = ri % ri1;
-//            q.push_back(ri / ri1);
-//        }
-//        i++;
-//    }
-//}
-
 int EuclidMR(int t, int ri){
     int ri1 = 1;
     while(1){
